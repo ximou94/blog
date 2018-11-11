@@ -57,13 +57,21 @@ bundle exec jekyll serve
 
 ## Récuperer mon dépot github [ici](https://github.com/ximou94/blog)
 
-Ensuite pour toi tous se passe dans le dossier _posts/
+Pour écrire un nouvel un article, on créé un fichier dans le dossier _posts/ . Le nom du fichier doit respecter un format précis: *year-month-day-title*.
 
-Pour rédiger tes articles tu as deux possibilités
+Pour rédiger les articles il y a deux possibilités
 
   * Le html
   * [Le markdown](https://daringfireball.net/projects/markdown/basics)
 
-Le nom de ton fichier doit respecter un format précis: *year-month-day-title*
+Une fois l'article rédigé, il faut se placer à la racine du projet (par exemple blog/) puis compiler:
+{% highlight sh %}
+jekyll build
+{% endhighlight %}
+
+Si on est en cours de rédaction et que l'on veut avoir un aperçu du blog, on se place à la racine du projet (par exemple blog/) et on exécute:
+{% highlight sh %}
+bundle exec jekyll serve
+{% endhighlight %}
 
 

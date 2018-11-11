@@ -1,7 +1,7 @@
 ---
 layout: post
 atuhor: BmXaM
-title:  "Test article for bmxam"
+title:  "Test article for bmxam !"
 date:   2018-04-28 20:21:16 +0100
 categories: bmxam
 ---
