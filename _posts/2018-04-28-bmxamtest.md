@@ -1,6 +1,6 @@
 ---
 layout: post
-author: BmXaM
+author: "Maxime Bouyges"
 title:  "Test article for bmxam !"
 date:   2018-04-28 20:21:16 +0100
 categories: bmxam

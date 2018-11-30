@@ -1,9 +1,9 @@
 ---
 layout: post
-author: BmXaM
+author: "Maxime Bouyges"
 title:  "Space Invaders"
 date:   2018-11-18 12:00:00 +0100
-categories: bmxam
+categories: Java
 ---
 Contributeurs: bmxam, wouiwoui
 

@@ -12,6 +12,9 @@ header_pages:
 collections:
   authors:
     output: true
+  category:
+    output: true 
+    permalink: /blog/category/:name/index.html
 defaults:
   - scope:
       path: ""
@@ -19,6 +22,11 @@ defaults:
     values:
       permalink: "/blog/authors/:name"
       layout: "author"
+  - scope:
+      path: ""
+      type: "category"
+    values:
+      layout: "category"
 
 # Google services
 google_verification:
