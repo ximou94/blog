@@ -1,6 +1,6 @@
 ---
 layout: post
-atuhor: BmXaM
+author: "Maxime Bouyges"
 title:  "Raspberry pi 3"
 date:   2018-04-28 12:00:00 +0100
 categories: bmxam

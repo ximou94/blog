@@ -2,7 +2,7 @@
 layout:     post
 title:      Jekyll !!!
 summary:    Petit tuto pour comprendre comment Jekyll marche
-author:     Maxime Grangier
+author:     "maxime grangier"
 categories: Jekyll Tuto
 ---
 

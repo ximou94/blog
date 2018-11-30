@@ -3,22 +3,21 @@ title:      JacknbobBlog
 email:       your_email@example.com
 author:     Maxime Grangier 
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     "/blog"
 url:         "https://jacknbob.fr"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
  - contact.html
+ - staff.html
 collections:
   authors:
     output: true
-    permalink: /blog/author/:name
-
 defaults:
   - scope:
       path: ""
       type: "authors"
     values:
+      permalink: "/blog/authors/:name"
       layout: "author"
 
 # Google services
@@ -129,7 +128,7 @@ text:
 markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
+permalink:   none 
 paginate:     10
 sass:
   style: compressed

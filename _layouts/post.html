@@ -24,6 +24,17 @@ layout: default
     {{ minutes }} {{ site.text.post.minute_read }}
   {% endif %}
   </span>
+<div class="post-categories right">
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</div>
 </div>
 
 <article class="post-content">

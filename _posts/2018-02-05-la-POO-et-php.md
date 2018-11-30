@@ -3,7 +3,7 @@ layout:     post
 title:      La POO en PHP
 summary:    Ensemble découvrons le nouveau modèle objet en PHP7
 author:     "maxime grangier"
-categories: POO PHP7
+categories: [POO, PHP7]
 ---
 
 There is a significant amount of subtle, yet precisely calibrated, styling to ensure
